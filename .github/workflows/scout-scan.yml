@@ -6,7 +6,7 @@ on:
 
 env:
   # Image Name
-  IMAGE_NAME: ghcr.io/NickVit03/my-unique-app:latest
+  IMAGE_NAME: ghcr.io/nickvit03/my-unique-app:latest
 
 jobs:
   build-and-scan:
