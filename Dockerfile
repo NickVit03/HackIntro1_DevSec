@@ -6,6 +6,6 @@ LABEL maintainer="NickVit03"
 LABEL description="My unique homework container"
 
 WORKDIR /app
-COPY app.py .
+COPY app.cpp .
 
-CMD ["python", "app.py"]
+CMD ["gcc", "app.cpp", "-o", "app", "&&", "./app"]
